@@ -1,0 +1,56 @@
+# Build output
+build/
+build-*/
+out/
+cmake-build-*/
+
+# CMake / clangd caches
+.cache/
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+install_manifest.txt
+Testing/
+_deps/
+
+# compile_commands.json is generated; the POST_BUILD step copies it into the
+# source tree. Symlink build/compile_commands.json instead of committing it.
+compile_commands.json
+
+# Compiled binaries / artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.app
+*.dSYM/
+MIDISequencer
+
+# Editor / IDE
+.vscode/
+.idea/
+.clangd/
+.clang-format-cache
+*.swp
+*.swo
+*~
+.cursor/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*.kate-swp
+
+# Misc
+*.log
+core
+core.*
